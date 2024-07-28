@@ -91,7 +91,8 @@ background-size: cover;
     height: 150px;
     font-size: 40px;
     cursor: pointer;
-    backdrop-filter: blur(15px);
+    transition: background-color 0.25s;
+    backdrop-filter: blur(10px);
 }
 
 .tracking-in-expand-fwd:hover {
